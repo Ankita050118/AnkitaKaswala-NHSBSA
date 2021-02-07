@@ -1,0 +1,234 @@
+# Created at 2021-01-31T12:58:12.038
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2021-01-31T12:58:12.829
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.840
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2021-01-31T12:58:12.842
+Unexpected IOException with stream: src/test/java/uk/nhs/nhsbsa/services/resources/featurefile/NhsHelp.feature:3 
+
+# Created at 2021-01-31T12:58:12.847
+Unexpected IOException with stream: # Scenario: As a person from Wales, I need to know what help
+
+
+# Created at 2021-01-31T12:58:12.863
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.883
+Unexpected IOException with stream: 1
+
+# Created at 2021-01-31T12:58:12.885
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2021-01-31T12:58:12.886
+Unexpected IOException with stream: 1 failed
+
+# Created at 2021-01-31T12:58:12.887
+Unexpected IOException with stream: )
+
+
+# Created at 2021-01-31T12:58:12.888
+Unexpected IOException with stream: 25
+
+# Created at 2021-01-31T12:58:12.889
+Unexpected IOException with stream:  Steps (
+
+# Created at 2021-01-31T12:58:12.898
+Unexpected IOException with stream: 1 failed
+
+# Created at 2021-01-31T12:58:12.901
+Unexpected IOException with stream: , 
+
+# Created at 2021-01-31T12:58:12.903
+Unexpected IOException with stream: 24 passed
+
+# Created at 2021-01-31T12:58:12.907
+Unexpected IOException with stream: )
+
+
+# Created at 2021-01-31T12:58:12.910
+Unexpected IOException with stream: 0m
+
+# Created at 2021-01-31T12:58:12.913
+Unexpected IOException with stream: 34.092s
+
+
+# Created at 2021-01-31T12:58:12.914
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.916
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7G85GJC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59b00677e4e3dd5acf34fe1f080fd14e
+*** Element info: {Using=xpath, value=//h2[@id='FREE-heading']}
+
+# Created at 2021-01-31T12:58:12.917
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.918
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2021-01-31T12:58:12.919
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.920
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2021-01-31T12:58:12.921
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.922
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2021-01-31T12:58:12.924
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.925
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2021-01-31T12:58:12.929
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.932
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2021-01-31T12:58:12.935
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.937
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2021-01-31T12:58:12.938
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.940
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2021-01-31T12:58:12.941
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.942
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2021-01-31T12:58:12.950
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.953
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2021-01-31T12:58:12.955
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.956
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2021-01-31T12:58:12.957
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.958
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2021-01-31T12:58:12.959
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.961
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2021-01-31T12:58:12.966
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.970
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2021-01-31T12:58:12.974
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.975
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2021-01-31T12:58:12.977
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.982
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2021-01-31T12:58:12.985
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.988
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2021-01-31T12:58:12.989
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.990
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy18.toString(Unknown Source)
+
+# Created at 2021-01-31T12:58:12.990
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.991
+Unexpected IOException with stream: 	at uk.nhs.nhsbsa.services.pages.HomePage.getHelpText(HomePage.java:257)
+
+# Created at 2021-01-31T12:58:12.994
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:12.996
+Unexpected IOException with stream: 	at uk.nhs.nhsbsa.services.cucumber.stepdefs.NhsSteps.iShouldSeeHelpTextMessageSuccessfully(NhsSteps.java:136)
+
+# Created at 2021-01-31T12:58:12.997
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:13.005
+Unexpected IOException with stream: 	at ?.Then I should see help text message successfully(src/test/java/uk/nhs/nhsbsa/services/resources/featurefile/NhsHelp.feature:30)
+
+# Created at 2021-01-31T12:58:13.006
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:13.007
+Unexpected IOException with stream: 
+
+
+# Created at 2021-01-31T12:58:13.351
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,uk.nhs.nhsbsa.services.cucumber.CukeTest,null,null,null
+
+

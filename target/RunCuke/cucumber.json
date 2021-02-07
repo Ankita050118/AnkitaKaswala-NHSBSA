@@ -1,0 +1,362 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8515712500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "As a person from Wales, I need to know what help",
+        "description": "I can get with my NHS costs that I can get the treatment I need",
+        "id": "eligibility-checker;as-a-person-from-wales,-i-need-to-know-what-help",
+        "after": [
+          {
+            "result": {
+              "duration": 699853300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123593400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on NHS bsa page",
+            "match": {
+              "location": "NhsSteps.iAmOnNHSBsaPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286005200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on start button",
+            "match": {
+              "location": "NhsSteps.iClickOnStartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98329700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on wales button",
+            "match": {
+              "location": "NhsSteps.iClickOnWalesButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233783700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on next button",
+            "match": {
+              "location": "NhsSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119988900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter date of birth to the field\"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "date",
+                  "offset": 35
+                }
+              ],
+              "location": "NhsSteps.iEnterDateOfBirthToTheField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117158100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter month of birth to the field\"month\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "month",
+                  "offset": 36
+                }
+              ],
+              "location": "NhsSteps.iEnterMonthOfBirthToTheField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99390900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter year of birth to thr field\"year\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "year",
+                  "offset": 35
+                }
+              ],
+              "location": "NhsSteps.iEnterYearOfBirthToThrField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227446900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on next to calender button",
+            "match": {
+              "location": "NhsSteps.iClickOnNextToCalenderButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89661900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on not live with partner button",
+            "match": {
+              "location": "NhsSteps.iClickOnNotLiveWithPartnerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248536900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on next partner button",
+            "match": {
+              "location": "NhsSteps.iClickOnNextPartnerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93684500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on not claim any button",
+            "match": {
+              "location": "NhsSteps.iClickOnNotClaimAnyButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209443200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on claim next button",
+            "match": {
+              "location": "NhsSteps.iClickOnClaimNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96696400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on not pregnant button",
+            "match": {
+              "location": "NhsSteps.iClickOnNotPregnantButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241175900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on pregnant page next button",
+            "match": {
+              "location": "NhsSteps.iClickOnPregnantPageNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89312900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on not injury button",
+            "match": {
+              "location": "NhsSteps.iClickOnNotInjuryButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262697100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on injury next button",
+            "match": {
+              "location": "NhsSteps.iClickOnInjuryNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89576700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on not diabetes button",
+            "match": {
+              "location": "NhsSteps.iClickOnNotDiabetesButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212551900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on next diabetes button",
+            "match": {
+              "location": "NhsSteps.iClickOnNextDiabetesButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107719100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on no glaucoma button",
+            "match": {
+              "location": "NhsSteps.iClickOnNoGlaucomaButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219445200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on no glaucoma next button",
+            "match": {
+              "location": "NhsSteps.iClickOnNoGlaucomaNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93530400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on no care home button",
+            "match": {
+              "location": "NhsSteps.iClickOnNoCareHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268404400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on care home next button",
+            "match": {
+              "location": "NhsSteps.iClickOnCareHomeNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93643800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on not saving on the button",
+            "match": {
+              "location": "NhsSteps.iClickOnNotSavingOnTheButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10333661600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on saving next button",
+            "match": {
+              "location": "NhsSteps.iClickOnSavingNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73629700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see help text message successfully",
+            "match": {
+              "location": "NhsSteps.iShouldSeeHelpTextMessageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Eligibility Checker",
+    "description": "",
+    "id": "eligibility-checker",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/nhs/nhsbsa/services/resources/featurefile/NhsHelp.feature"
+  }
+]
